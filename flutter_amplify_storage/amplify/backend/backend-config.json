@@ -1,0 +1,16 @@
+{
+  "auth": {
+    "flutteramplifystorag28eae8c4": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "storage": {
+    "s37c87e3a1": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}
