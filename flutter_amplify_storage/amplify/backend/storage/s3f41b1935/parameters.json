@@ -1,7 +1,7 @@
 {
-    "bucketName": "flutteramplifystorag4472cfa5ec7640a2ab8a6e3aa01",
-    "authPolicyName": "s3_amplify_7c87e3a1",
-    "unauthPolicyName": "s3_amplify_7c87e3a1",
+    "bucketName": "flutteramplifystorag30e0de925f284756a7d46d52475",
+    "authPolicyName": "s3_amplify_f41b1935",
+    "unauthPolicyName": "s3_amplify_f41b1935",
     "authRoleName": {
         "Ref": "AuthRoleName"
     },
@@ -9,10 +9,8 @@
         "Ref": "UnauthRoleName"
     },
     "selectedGuestPermissions": [
-        "s3:PutObject",
         "s3:GetObject",
-        "s3:ListBucket",
-        "s3:DeleteObject"
+        "s3:ListBucket"
     ],
     "selectedAuthenticatedPermissions": [
         "s3:PutObject",
@@ -21,17 +19,17 @@
         "s3:DeleteObject"
     ],
     "s3PermissionsAuthenticatedPublic": "s3:PutObject,s3:GetObject,s3:DeleteObject",
-    "s3PublicPolicy": "Public_policy_b56a70d6",
+    "s3PublicPolicy": "Public_policy_10685c2f",
     "s3PermissionsAuthenticatedUploads": "s3:PutObject",
-    "s3UploadsPolicy": "Uploads_policy_b56a70d6",
+    "s3UploadsPolicy": "Uploads_policy_10685c2f",
     "s3PermissionsAuthenticatedProtected": "s3:PutObject,s3:GetObject,s3:DeleteObject",
-    "s3ProtectedPolicy": "Protected_policy_4191a636",
+    "s3ProtectedPolicy": "Protected_policy_10685c2f",
     "s3PermissionsAuthenticatedPrivate": "s3:PutObject,s3:GetObject,s3:DeleteObject",
-    "s3PrivatePolicy": "Private_policy_4191a636",
+    "s3PrivatePolicy": "Private_policy_10685c2f",
     "AuthenticatedAllowList": "ALLOW",
-    "s3ReadPolicy": "read_policy_b56a70d6",
-    "s3PermissionsGuestPublic": "s3:PutObject,s3:GetObject,s3:DeleteObject",
-    "s3PermissionsGuestUploads": "s3:PutObject",
-    "GuestAllowList": "ALLOW",
+    "s3ReadPolicy": "read_policy_10685c2f",
+    "s3PermissionsGuestPublic": "DISALLOW",
+    "s3PermissionsGuestUploads": "DISALLOW",
+    "GuestAllowList": "DISALLOW",
     "triggerFunction": "NONE"
 }

@@ -1,8 +1,8 @@
 {
-    "identityPoolName": "flutteramplifystorag28eae8c4_identitypool_28eae8c4",
-    "allowUnauthenticatedIdentities": true,
-    "resourceNameTruncated": "flutte28eae8c4",
-    "userPoolName": "flutteramplifystorag28eae8c4_userpool_28eae8c4",
+    "identityPoolName": "flutteramplifystoragf0425bd1_identitypool_f0425bd1",
+    "allowUnauthenticatedIdentities": false,
+    "resourceNameTruncated": "fluttef0425bd1",
+    "userPoolName": "flutteramplifystoragf0425bd1_userpool_f0425bd1",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -28,10 +28,10 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "userpoolClientLambdaRole": "flutte28eae8c4_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "fluttef0425bd1_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "28eae8c4",
-    "resourceName": "flutteramplifystorag28eae8c4",
+    "sharedId": "f0425bd1",
+    "resourceName": "flutteramplifystoragf0425bd1",
     "authSelections": "identityPoolAndUserPool",
     "authRoleArn": {
         "Fn::GetAtt": [
@@ -47,10 +47,10 @@
     },
     "useDefault": "defaultSocial",
     "hostedUI": true,
-    "hostedUIDomainName": "flutteramplifystorag28eae8c4-28eae8c4",
+    "hostedUIDomainName": "flutteramplifystoragf0425bd1-f0425bd1",
     "authProvidersUserPool": [],
     "hostedUIProviderMeta": "[]",
-    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"gallery://\"],\"LogoutURLs\":[\"gallery://\"]}",
+    "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"galleryapp://callback/\"],\"LogoutURLs\":[\"galleryapp://signout/\"]}",
     "userPoolGroupList": [],
     "serviceName": "Cognito",
     "usernameCaseSensitive": false,

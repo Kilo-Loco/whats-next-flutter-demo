@@ -12,25 +12,25 @@ const amplifyconfig = ''' {
                 "CredentialsProvider": {
                     "CognitoIdentity": {
                         "Default": {
-                            "PoolId": "us-west-2:ec78c122-9b61-4259-871c-e0e108abeaa2",
+                            "PoolId": "us-west-2:ca3573f5-9aa3-4bc3-b8f6-cbca91e2841c",
                             "Region": "us-west-2"
                         }
                     }
                 },
                 "CognitoUserPool": {
                     "Default": {
-                        "PoolId": "us-west-2_HovbYNvWq",
-                        "AppClientId": "2ej4i7cnjudeap63s1fnamru7l",
+                        "PoolId": "us-west-2_fmPlCC3vQ",
+                        "AppClientId": "74fj3nq3ku8o90f7don1tqj9sc",
                         "Region": "us-west-2"
                     }
                 },
                 "Auth": {
                     "Default": {
                         "OAuth": {
-                            "WebDomain": "flutteramplifystorag28eae8c4-28eae8c4-dev.auth.us-west-2.amazoncognito.com",
-                            "AppClientId": "2ej4i7cnjudeap63s1fnamru7l",
-                            "SignInRedirectURI": "gallery://",
-                            "SignOutRedirectURI": "gallery://",
+                            "WebDomain": "flutteramplifystoragf0425bd1-f0425bd1-dev.auth.us-west-2.amazoncognito.com",
+                            "AppClientId": "74fj3nq3ku8o90f7don1tqj9sc",
+                            "SignInRedirectURI": "galleryapp://callback/",
+                            "SignOutRedirectURI": "galleryapp://signout/",
                             "Scopes": [
                                 "phone",
                                 "email",
@@ -44,7 +44,7 @@ const amplifyconfig = ''' {
                 },
                 "S3TransferUtility": {
                     "Default": {
-                        "Bucket": "flutteramplifystorag4472cfa5ec7640a2ab8a6e3aa01154322-dev",
+                        "Bucket": "flutteramplifystorag30e0de925f284756a7d46d5247581044-dev",
                         "Region": "us-west-2"
                     }
                 }
@@ -54,7 +54,7 @@ const amplifyconfig = ''' {
     "storage": {
         "plugins": {
             "awsS3StoragePlugin": {
-                "bucket": "flutteramplifystorag4472cfa5ec7640a2ab8a6e3aa01154322-dev",
+                "bucket": "flutteramplifystorag30e0de925f284756a7d46d5247581044-dev",
                 "region": "us-west-2",
                 "defaultAccessLevel": "guest"
             }

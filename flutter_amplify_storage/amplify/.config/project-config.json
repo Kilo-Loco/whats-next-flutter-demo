@@ -1,7 +1,4 @@
 {
-  "providers": [
-    "awscloudformation"
-  ],
   "projectName": "flutteramplifystorag",
   "version": "3.0",
   "frontend": "flutter",
@@ -9,5 +6,8 @@
     "config": {
       "ResDir": "./lib/"
     }
-  }
+  },
+  "providers": [
+    "awscloudformation"
+  ]
 }
