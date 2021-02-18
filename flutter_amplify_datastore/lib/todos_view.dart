@@ -140,7 +140,7 @@ class _TodosViewState extends State<TodosView> {
       final updatedTodo = todo.copyWith(isComplete: isComplete);
       await Amplify.DataStore.save(updatedTodo);
       print('${updatedTodo.body} completed: $isComplete');
-      _getTodos();
+      // _getTodos();
     } catch (e) {
       print(e);
     }
@@ -152,7 +152,7 @@ class _TodosViewState extends State<TodosView> {
       await Amplify.DataStore.save(newTodo);
       print('saved ${newTodo.body}');
       _todoTitleController.text = '';
-      _getTodos();
+      // _getTodos();
     } catch (e) {
       print(e);
       Amplify.DataStore.clear();

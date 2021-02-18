@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_amplify_datastore/amplifyconfiguration.dart';
 import 'package:flutter_amplify_datastore/models/ModelProvider.dart';
 import 'package:flutter_amplify_datastore/todos_view.dart';
-// import 'package:amplify_api/amplify_api.dart';
+import 'package:amplify_api/amplify_api.dart';
 
 void main() {
   runApp(MyApp());
@@ -27,7 +27,7 @@ class _MyAppState extends State<MyApp> {
       final dataStorePlugin =
           AmplifyDataStore(modelProvider: ModelProvider.instance);
       await Amplify.addPlugin(dataStorePlugin);
-      // await Amplify.addPlugin(AmplifyAPI());
+      await Amplify.addPlugin(AmplifyAPI());
 
       await Amplify.configure(amplifyconfig);
       print('Amplify configured');
